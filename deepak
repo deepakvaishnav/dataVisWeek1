@@ -1,0 +1,64 @@
+<html>
+   <head>
+       <title>Data Viz Week 1</title>
+   </head>
+   <body>
+   <h1>Data Viz Week 1 lesson</h1>
+   
+   
+      <script>
+	  // This is my javascript I am going to describe objects in the room.
+	  // Then, I am going to console log these objects.
+	  //This program will include a string, a boolean, an array, and an object.
+
+      // This  is a string. It describe my location.
+       var mylocationstring = "VP House";
+	   console.log('The name of my location is:');
+       console.log(mylocationstring);
+	   console.log(typeof(mylocationstring));
+	   console.log(' ')
+	   
+	   //This is a number. This describes the location of VP House.
+       var housenumber = 17;
+       console.log(housenumber);
+       console.log(typeof(housenumber));	   
+	   var newhouses = '432';
+	   var newhousenumber = Number(newhouses);
+	   console.log( 'The sum of our new houses is:');
+	   console.log(housenumber+newhousenumber);
+	   console.log(' ');
+	   
+	   //This is a boolean . It describes the city in which Jamia Hostel is located.
+	   var isInDelhi = true;
+	   console.log(isInDelhi);
+	   console.log(housenumber>newhousenumber);
+	   console.log(' ');
+	   
+	   //Now I am going to create an array. The array will describe objects in the canteen.
+	   var canteenarray = ['bench','table','dustbins','fans'];
+	   console.log(canteenarray);
+	   
+	  
+       //This is a variable for the length of my canteen array.It is one higher than the number of my final item.	  
+	  
+	   var canteenarraylength = canteenarray.length;
+	   console.log(canteenarraylength);
+	   var lastitem = canteenarray[canteenarraylength-1];
+	   console.log(lastitem);
+	   console.log(' ');
+	   
+	   //Now I will create an object to describe the vendor.
+	   var vendor = {
+	       name : "Karan",
+		   age: 34,
+		   appearance: ['dark', 'short', 'fat']
+	   };
+	   console.log(vendor);
+	  
+	   var firstappearance = vendor.appearance[0];
+	   console.log(firstappearance);
+	   
+	   
+     </script>	   
+   </body>
+</html>
